@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'poppins';
+  src: url('./assets/font/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'jetbrainsmono_extrabold';
+  src: url('./assets/font/JetBrainsMono-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'soria';
+  src: url('./assets/font/soria-font.ttf');
+}
+
+@font-face {
+  font-family: 'manrope_bold';
+  src: url('./assets/font/Manrope-ExtraBold.ttf');
+}
+
+* {
+  font-family: poppins, sans-serif;
+}
+
+.sonia {
+  font-family: soria;
+}
+
+.manrope_bold {
+  font-family: manrope_bold;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

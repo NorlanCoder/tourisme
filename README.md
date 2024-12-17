@@ -1,2 +1,2 @@
-# tourisme
-Tourisme proposition
+# kumba-landing
+Landing page Kumba
